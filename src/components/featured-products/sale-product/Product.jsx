@@ -5,7 +5,7 @@ import WishlistButton from '../../UI-kits/WishlistButton'
 import { BsStar } from 'react-icons/bs'
 import { GoGitCompare } from 'react-icons/go'
 import images from '../../../assets/images'
-import { combineWithBaseURL } from '../../../utilities/functions'
+import { combineWithBaseURL } from '../../../helper/helper.js'
 
 const Product = ({product}) => {
     return (

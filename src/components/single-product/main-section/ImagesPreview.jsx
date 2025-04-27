@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import ImageMagnifier from './ImageMagnifier';
-import { combineWithBaseURL } from '../../../utilities/functions';
+import { combineWithBaseURL } from '../../../helper/helper.js';
 
 const ImagesPreview = ({images, isLoading}) => {
   const [selectedImg, setSelectedImg] = useState(images?.[0]);

@@ -4,7 +4,7 @@ import { FaBriefcase } from "react-icons/fa6";
 import useFetch from '../../../hooks/useFetch';
 import ProductCards from './ProductCards';
 import MainHeader from '../../UI-kits/MainHeader';
-import { getUrl } from '../../../utilities/functions';
+import { getUrl } from '../../../helper/helper.js';
 
 const Products = () => {
     const {callApi, response: products, isloading, isSuccess, isError, errorMsg} = useFetch();

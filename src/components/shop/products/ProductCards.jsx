@@ -1,6 +1,6 @@
 import React from 'react'
 import SmallVerticalCard from '../../products-card/SmallVerticalCard'
-import { combineWithBaseURL } from '../../../utilities/functions'
+import { combineWithBaseURL } from '../../../helper/helper.js'
 
 const ProductCards = ({products}) => {
 
