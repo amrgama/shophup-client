@@ -8,7 +8,7 @@ import { useSearchParams } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
 import NotFound from '../../UI-kits/NotFound';
 import Loader from '../../UI-kits/Loader';
-import { getUrl } from '../../../utilities/helper';
+import { getUrl } from '../../../utilities/functions';
 
 const navLinks = [
     {

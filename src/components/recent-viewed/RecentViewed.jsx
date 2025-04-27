@@ -9,7 +9,7 @@ import Section from '../UI-kits/Section';
 import useFetch from '../../hooks/useFetch';
 import Loader from '../UI-kits/Loader';
 import NotFound from '../UI-kits/NotFound';
-import { getUrl } from '../../utilities/helper';
+import { getUrl } from '../../utilities/functions';
 
 const RecentViewed = () => {
     const {callApi, response: products, isIdel, isLoading, isSuccess, isError, errorMsg}= useFetch();

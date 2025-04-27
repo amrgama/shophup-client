@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import QuantityInput from '../../UI-kits/inputs/QuantityInput';
 import ActionButton from '../../UI-kits/ActionButton';
 import DeleteRowButton from './DeleteRowButton';
-import { combineWithBaseURL } from '../../../utilities/helper';
+import { combineWithBaseURL } from '../../../utilities/functions';
 
 const Row = ({index, data, setData, extraClasses}) => {
     const className = `${extraClasses ?? ""}`;

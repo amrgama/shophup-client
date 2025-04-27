@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import RelatedProductsSlider from './RelatedProductsSlider'
-import { getUrl } from '../../../../utilities/helper';
+import { getUrl } from '../../../../utilities/functions';
 
 const RelatedProdducts = () => {
 

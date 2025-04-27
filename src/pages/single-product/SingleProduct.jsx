@@ -3,7 +3,7 @@ import ImagesPreview from '../../components/single-product/main-section/ImagesPr
 import Main from '../../components/single-product/main-section/Main'
 import Body from '../../components/single-product/body-section/Body'
 import { useParams } from 'react-router-dom'
-import { getUrl } from '../../utilities/helper'
+import { getUrl } from '../../utilities/functions'
 
 const SingleProduct = () => {
   const {id}= useParams();

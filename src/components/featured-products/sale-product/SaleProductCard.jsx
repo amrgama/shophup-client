@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 // import SaleProductTop from './Product';
 import Counter from './Counter';
 import Product from './Product';
-import { getUrl } from '../../../utilities/helper';
+import { getUrl } from '../../../utilities/functions';
 
 const SaleProductCard = () => {
     const [product, setProduct] = useState({});
