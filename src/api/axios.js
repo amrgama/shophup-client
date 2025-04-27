@@ -1,5 +1,5 @@
 import axios from "axios"
-import { getUrl } from "../utilities/functions"
+import { getUrl } from "../helper/helper"
 
 export default axios.create({
     baseURL: getUrl(),

@@ -1,5 +1,5 @@
 import axios from "../../api/axios";
-import { getUrl } from "../../utilities/functions";
+import { getUrl } from "../../helper/helper.js";
 import withInterceptors from "../../utilities/withInterceptors";
 
 

@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import SmallVerticalCard from "../products-card/SmallVerticalCard";
 import Loader from "../UI-kits/Loader";
-import { getUrl } from "../../utilities/functions";
+import { getUrl } from "../../helper/helper.js";
 
 
 const ProductsSlider = ()=> {
