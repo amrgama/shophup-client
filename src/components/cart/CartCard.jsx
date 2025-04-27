@@ -5,7 +5,7 @@ import {MdClose} from "react-icons/md"
 import QuantityInput from '../UI-kits/inputs/QuantityInput'
 import { motion } from 'framer-motion'
 import { removeFromCart } from '../../features/cart/cartSlice'
-import { combineWithBaseURL } from '../../utilities/functions'
+import { combineWithBaseURL } from '../../helper/helper.js'
 
 const CartCard = ({product, quantity}) => {
   const [data, setData] = useState({product, quantity})

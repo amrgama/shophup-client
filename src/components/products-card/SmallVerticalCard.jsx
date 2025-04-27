@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import WishlistButton from '../UI-kits/WishlistButton'
 import AddToCartButton from '../UI-kits/AddToCartButton'
-import { combineWithBaseURL } from '../../utilities/functions'
+import { combineWithBaseURL } from '../../helper/helper.js'
 
 const SmallVerticalCard = ({product}) => {
   // const renderedRateItems = new Array(product?.rating?.rate).map((item, i)=>{

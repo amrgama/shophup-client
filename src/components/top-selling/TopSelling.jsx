@@ -11,7 +11,7 @@ import useFetch from '../../hooks/useFetch';
 import { useSearchParams } from 'react-router-dom';
 import NotFound from '../UI-kits/NotFound';
 import Loader from '../UI-kits/Loader';
-import { getUrl } from '../../utilities/functions';
+import { getUrl } from '../../helper/helper.js';
 
 const navLinks = [
   {

@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import {MdClose} from "react-icons/md"
 import { useDispatch } from 'react-redux'
 import { removeFromWishList, selectWishList } from '../../features/wish-list/wishListSlice'
-import { combineWithBaseURL } from '../../utilities/functions'
+import { combineWithBaseURL } from '../../helper/helper.js'
 
 const WishlistCard = ({product}) => {
  const dispatch= useDispatch(selectWishList);

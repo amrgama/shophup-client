@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
-import { DateUtility } from '../../../../helper/helper';
+import { DateUtility } from '../../../helper/helper';
 
 const Counter = ({date}) => {
   const dateUtility = new DateUtility();
