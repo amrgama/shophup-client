@@ -1,0 +1,46 @@
+.logo{
+    color: $primary;
+    font-size: 30px;
+    font-family: $logo-font-family;
+    font-style: normal;
+    font-weight: 700;
+    padding: 0px !important;
+    span{
+        color: $secondary;
+    }
+}
+
+.search-box{
+    border: 2px solid $light;
+    border-radius: 90px;
+
+    input{
+        background-color: transparent !important;
+        border-style: none !important;
+        border-bottom: 1px solid $light !important;
+        box-shadow: none !important;
+    }
+}
+
+.header-middle{
+   
+    .right{
+        .btn-wrapper{
+            .btn, .box-cart .btn{
+                color: $light;
+                transition: color 0.2s, border 0.2s;
+                -webkit-transition: color 0.2s, border 0.2s;
+                -moz-transition: color 0.2s, border 0.2s;
+                -ms-transition: color 0.2s, border 0.2s;
+                -o-transition: color 0.2s, border 0.2s;
+}
+            .btn:hover,
+            button:hover,
+            .box-cart:hover .btn,
+            .box-cart:hover .cart-total-price{
+                color: $primary !important;
+                border-color: $primary !important;
+            }
+        }
+    }
+}

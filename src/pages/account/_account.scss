@@ -1,0 +1,30 @@
+#account{
+    .dashboard{
+        .dashboard-body{
+            &::-webkit-scrollbar{
+                width: 0px;
+                overflow: hidden;
+            }
+        }
+    }
+
+    .status{
+        border-radius: 6px;
+        padding: 6px 11px;
+    }
+
+    .delivered{
+        background-color: #f1faff;
+        color: #00a3ff;
+    }
+
+    .cancel{
+        background-color: #fff5f8;
+        border-radius: 6px;
+    }
+
+    .in-progress{
+        background-color: #fff4de;
+         color: #ffa800;
+    }
+}
