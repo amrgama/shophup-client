@@ -1,4 +1,7 @@
-export const getUrl=(mode)=> mode == "DEV"? "http://localhost:3600": "https://shop-hub-api-production.up.railway.app";
+export const getUrl=(mode)=>{ 
+    if(mode == "DEV") return "http://localhost:3600"; 
+    return "https://shop-hub-api-production.up.railway.app";
+}
 
 export const combineWithBaseURL= (path)=>{
     path= path || "";
@@ -11,4 +14,3 @@ export const combineWithBaseURL= (path)=>{
     
     return `${getUrl()}/${path}`;
 }
-
